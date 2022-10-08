@@ -33,6 +33,7 @@ public class MainActivity3 extends AppCompatActivity
         viewFlipper.addView(view3);
         viewFlipper.addView(view4);
         viewFlipper.addView(view5);
+
         viewFlipper.startFlipping();
 
     }

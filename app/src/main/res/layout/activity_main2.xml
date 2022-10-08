@@ -10,7 +10,9 @@
     <ViewFlipper
             android:id="@+id/ViewFlipper"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:inAnimation="@anim/right_in"
+            android:outAnimation="@anim/right_out">
 
         <include layout="@layout/item_1" />
 
